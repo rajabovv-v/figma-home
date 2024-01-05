@@ -1,0 +1,64 @@
+/* FOOTER - START */
+ .footer{
+   
+    &_row{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+   &_text{
+    display: flex;
+    gap: 50px;
+    align-items: center ;
+   }
+   &_title{
+    color: var(--green_brand, #359740);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 178.187%; 
+    letter-spacing: -0.49px;
+    }
+   &_sub{
+    color: var(--text_secondary, #70737C);
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.187%;
+   }
+   &_line{
+    margin: 20px 40px;
+    width: 80%;
+    height: 1px;
+    opacity: 0.3;
+    background: #359740;
+   }
+  
+   &_insta{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 700px;
+
+    @media screen and (max-width:768px) {
+       gap: 300px;
+      
+    }
+   }
+   &_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+ }
+
+
+
+
+
+
+/* FOOTER - END */
